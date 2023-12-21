@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    android:scrollbars="vertical"
+    tools:context=".TipsAndHelp">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/white"
+        android:onClick="goBack"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/back"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/mmedium"
+                android:text="Harassment as a solo female traveler"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/mlight"
+                android:text="@string/tip1"
+                android:textColor="@color/textColorSecondary"
+                android:textSize="12dp" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/mmedium"
+                android:text="School Bullying"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/mlight"
+                android:text="@string/tip2"
+                android:textColor="@color/textColorSecondary"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/mmedium"
+                android:text="Work Place Harassment"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/mlight"
+                android:text="@string/tip3"
+                android:textColor="@color/textColorSecondary"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/mmedium"
+                android:text="Harassment in the family"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/mlight"
+                android:text="@string/tip4"
+                android:textColor="@color/textColorSecondary"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/mmedium"
+                android:text="Harassment from a partner"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/mlight"
+                android:text="@string/tip5"
+                android:textColor="@color/textColorSecondary"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"/>
+
+        </TableLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

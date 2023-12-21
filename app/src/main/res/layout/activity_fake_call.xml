@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FakeCall"
+    android:background="@drawable/fakecallbg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Private Number"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incoming Call"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="14dp"
+        android:gravity="center" />
+    <TableRow
+        android:layout_marginTop="300dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_access_alarm_24" />
+
+        <ImageView
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_message_24" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reminder"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Message"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <ImageButton
+            android:id="@+id/decline"
+            android:layout_width="12dp"
+            android:layout_height="66dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#FF0000"
+            android:src="@drawable/ic_baseline_call_end_24" />
+
+        <ImageView android:layout_weight="12" />
+
+        <ImageButton
+            android:id="@+id/answer"
+            android:layout_width="12dp"
+            android:layout_height="66dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#3CB043"
+            android:src="@drawable/ic_baseline_call_24" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Decline"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Answer"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:textAlignment="center" />
+    </TableRow>
+</TableLayout>

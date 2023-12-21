@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background23">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/mmedium" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="500dp"
+            android:background="@drawable/mainbuttons"
+            android:textAllCaps="false"
+            android:text="Guardian tutorial"
+            android:fontFamily="@font/mmedium"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/btn1"  />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="500dp"
+            android:background="@drawable/mainbuttons"
+            android:fontFamily="@font/mmedium"
+            android:text="How to use Guardian?"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"
+            android:id="@+id/howToUse"
+            android:onClick="howToUse"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="500dp"
+            android:background="@drawable/mainbuttons"
+            android:fontFamily="@font/mmedium"
+            android:text="FAQ"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="140dp"
+            android:id="@+id/faq"
+            android:onClick="faq"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="500dp"
+            android:background="@drawable/mainbuttons"
+            android:fontFamily="@font/mmedium"
+            android:text="Tips and help"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="280dp"
+            android:id="@+id/tips"
+            android:onClick="tipsandhelp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="500dp"
+            android:background="@drawable/mainbuttons"
+            android:fontFamily="@font/mmedium"
+            android:text="Invite your friends to Guardian"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="350dp"
+            android:id="@+id/share"
+            android:onClick="share"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="500dp"
+            android:background="@drawable/mainbuttons"
+            android:fontFamily="@font/mmedium"
+            android:text="Help us improve"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="530dp"
+            android:id="@+id/feedback"
+            android:onClick="email"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="500dp"
+            android:background="@drawable/mainbuttons"
+            android:fontFamily="@font/mmedium"
+            android:text="Terms and conditions"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="600dp"
+            android:id="@+id/policy"
+            android:onClick="policy"/>
+
+    </FrameLayout>
+</LinearLayout>

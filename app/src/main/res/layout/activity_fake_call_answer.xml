@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FakeCall"
+    android:background="@drawable/fakecallbg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Private Number"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Ongoing..."
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="14dp"
+        android:gravity="center" />
+    <TableRow
+        android:layout_marginTop="200dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_mic_off_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_123_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_volume_up_24" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="mute"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="12dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="keypad"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="12dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="speaker"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="12dp"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_add_24"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_video_call_24"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_contacts_24" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="add call"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="12dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="video call"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="12dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="contacts"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="12dp"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:layout_weight="12" />
+
+        <ImageButton
+            android:id="@+id/endCall"
+            android:layout_width="67dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#FF0000"
+            android:src="@drawable/ic_baseline_call_end_24" />
+
+        <ImageView android:layout_weight="12" />
+
+    </TableRow>
+
+</TableLayout>

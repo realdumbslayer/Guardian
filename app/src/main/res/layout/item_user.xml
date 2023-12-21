@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:id="@+id/linear"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardview">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/circularlogo"/>
+
+                <RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:textColor="@color/splashScreen"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_below="@+id/tvName"
+                        android:id="@+id/tvPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Phone"
+                        android:textColor="@color/mottoLight"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"/>
+
+                </RelativeLayout>
+
+            </TableRow>
+
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

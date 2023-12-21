@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Guardian</string>
+    <string name="tip">We provided a short guide about how to identify and exit an abusive relationship with your partner, in your family, at home or while travelling. Check them out on the Dashboard/ Tips and help.</string>
+    <string name="sos">You can either do this by shaking your phone a number of times, or by detecting you NFC tag. This mode will send an SMS to your Guardian contacts stating that your in danger along with our current location</string>
+    <string name="fakecall">Click on fake call in the drawer menu to activate the fake call. Talk about your whereabouts or how you will be picked up to deter a possible aggressor. Meanwhile, look for a shelter and activate SOS if you feel scared.</string>
+    <string name="permissions">Accept the permissions to synchronize your contact list, access your location, send an SMS and ignore battery optimizations</string>
+    <string name="add_contacts">Open the drawer menu and tap the contacts view. Press Add contact button and select a contact you want to save on Guardian (You can add up to 5 contacts).</string>
+    <string name="remove_dial">Simply press on a contact to dial it and long press on it remove it. A dialog box will appear to confirm both actions</string>
+
+    <string name="Q1">- When installing Guardian, accept the permission to synchronize your agenda. Then go to the drawer menu, select Contacts, press add emergency contact and choose your 1 to 5 trusted contacts.</string>
+    <string name="Q2">- When installing Guardian, accept the permission to access you location, activate live location then shake your phone or detect your NFC tag. Guardian will send a message to your contacts that contains your location.</string>
+    <string name="Q3">- No, they\'ll simply receive an SMS message, a call or a WhatsApp message from you.</string>
+    <string name="Q4">- Yes, activating SOS mode will send your location to all your contacts simultaneously.</string>
+    <string name="Q5">- Go to drawer menu, Contacts, you can remove a contact by long clicking on it.</string>
+    <string name="Q6">- Yes, on Guardian your location is encrypted with public and private keys, so no body else can see it.</string>
+    <string name="Q7">- Click on fake call in the drawer menu, your phone will ring and vibrate. You can end the call by declining it or answer it and pretend to take a call.</string>
+
+
+    <string name="tip1"><![CDATA[• Share your itinerary and routes with your trusted contacts. You can also add to this list friends you have made on the trip or groups of trusted online travelers. This way, you will always have someone who knows your whereabouts and with the possibility of helping you if you find yourself in any kind of emergency situation.
+
+    \n\n• Find a safe accommodation in a safe area.
+
+    \n\n• Before leaving, it is necessary to find out the health situation, for example if it is necessary to be vaccinated or carry any type of specific medicine or if they have voluntary confinement measures due to Covid19. In any case, it is important that you also take out full health insurance to respond to any unforeseen event and travel insurance in case you have to report a theft or recover a canceled trip.
+
+    \n\n• Look into the local customs to be able to know their habits and draw less attention to your condition as a foreigner. These include lunch and dinner hours, nights out and bedtime, but also more common means of transportation or rules during popular events.
+
+    \n\n• Check out the basic local regulations to avoid committing something illegal. In some countries women are not allowed to enter some public events, check into a hotel or wear short clothes. It is also important to know what is the minimum age to drive or enter a nightclub.
+
+    \n\n• Bring your phone equipped with the contact information of your insurance, the embassy and consulate of your country, the emergency number of the bank, your travel agency, emergency services, your mobile operator and the reserved accommodations.
+
+    \n\n• Download apps dedicated to currency conversion, translators, GPS, travel agencies and data protection systems. In a stressful situation it is easier to solve a problem if you already have the tools at hand. Try to have your mobile phone always with full battery and with a SIM card with credit.
+
+    \n\n•Carry money in all its formats, from mobile pay to bank cards and cash. It is common in some countries that you can\'t pay in cash, while in others it is the only accepted payment method.
+
+    \n\n• Choose where you are going to sleep by searching for information about neighborhoods online or by asking local tourist offices. In the case in which you choose shared houses, buy a lock for the door and locks for your luggage.
+
+    \n\n• Sign up for the travelers\' registry of the Ministry of Foreign Affairs, so that they can have you located in case of need.
+
+    \n\n• Act as if you knew exactly where you are going to and what you are doing. Try to be polite but reserved as your body language can be misinterpreted in some cultures.
+
+    \n\n• In case of a problem, do not hesitate to ask the authorities for help if necessary. The travel agency, the guides or anyone responsible for your trip, travel friends and your trusted contacts can also help you.
+]]></string>
+
+    <string name="tip2"><![CDATA[ • Keep in mind that it is not your fault that you are being bullied and there is no reasonable reason to have to go through what you are experiencing.
+
+    \n\n• Experts recommend acting at the slightest sign that you are being bullied and asking for help as soon as possible.
+
+    \n\n• To identify bullying, ask yourself if there is hostile behavior that affects your integrity, image or honor. Ask yourself if it occurs frequently, what is it like, who causes it and who is a witness. Take note of all of it.
+
+    \n\n• Identify the consequences that you are suffering derived from bullying, such as sadness, worry, insomnia, loss of appetite, lack of relationship with friends or loss of school performance.
+
+    \n\n• It is important that you ask your trusted friends, siblings or parents for help. If you don\'t feel that you can trust them or the teachers, you could look for foundations that can support you in your situation.
+
+    \n\n• Surround yourself with your friends at school and ask them for help. If you do not have a good relationship, it is time to make an effort and start new relationships with other people.
+
+    \n\n• Show a confident attitude, it can deter many from continuing the bullying.
+
+    \n\n• Concentrate, as much as you can, on catching up on your studies.
+
+    \n\n• Find an after-school activity that will allow you to relax doing something that you are passionate about and meet new friends.
+
+    \n\n• Remember, the reason the bullies have chosen is nothing more than an excuse, you don\'t have to be perfect and you don\'t need anyone\'s approval. You are more than enough.]]></string>
+
+    <string name="tip3"><![CDATA[• Always bear in mind that receiving any kind of harassment in your work environment is not your fault and that you should not allow it.
+
+    \n\n• Detecting it can be complex, but experts recommend that you take notes of hostile attitudes that challenge your integrity, honor, image or mood. Once you have recorded them, you can see if there are repetitions, in what context and of what type.
+
+    \n\n• Pay attention to your workload to see if it has increased or drastically reduced and if it is related to the hostile environment.
+
+    \n\n• See if the relationship you have with other bosses and workers has turned negative and if you feel more isolated than before and why you think it happens.
+
+    \n\n• Once you have analyzed the situation well, you can start documenting the evidence such as emails, comments, messages or behaviors that you can use to your advantage to report it.
+
+    \n\n• If the company has a workplace harassment plan, you can directly go to the human resources department, which will help you resolve the conflict in a professional and peaceful way.
+
+    \n\n• Otherwise, you can go to a legal advisor to initiate the civil or criminal procedure, depending on the type of harassment you suffer and you can claim responsibility and request, if you wish, the dissolution of the contract.
+]]></string>
+
+    <string name="tip4"><![CDATA[• It is important to detect if we are facing an argument or harassment. A discussion is a free and reciprocal expression of ideas or opinions held by 2 or more people with different points of view.
+
+    \n\n• Harassment, on the other hand, happens when the freedom of the other person is aggressively invaded when two people have not reached an agreement. Here it happens at a violent level that is important to identify.
+
+    \n\n• Arguments or fights should not involve violence of any kind, otherwise it is indicative that you are in a symmetric or complementary hierarchical relationship; In other words, there is a disparity in the relationship and the dominant and the submissive are involved.
+
+    \n\n• It is important to record and write down all bullying situations and the treatment that makes you feel bad. In case of receiving violence, it is important to go to a medical center and receive a report.
+
+    \n\n• In this situation of enormous stress, it is important to calm down and make decisions together with a family member or friend, or if you prefer someone outside, a psychotherapist, family counselor or lawyer.
+
+    \n\n• To resolve the conflict peacefully, it is good to take professional advice in family counseling, therapy or alternative peace mediation.
+
+    \n\n• In order to take legal action, it is necessary to gather together the information that has been collected of the situations of abuse and consult a lawyer, a police station or seek the support of women\'s associations or the Institute for Women.
+
+    \n\n• Remember that experiencing bullying situations in the family is not normal and that there is no excuse, motive or justification that motivates abuse.
+]]>
+    </string>
+
+    <string name="tip5"><![CDATA[ • Keep in mind that receiving humiliating treatment, humiliation in public or in private, harassment on the phone or on the internet are not, in any case, your fault.
+
+    \n\n• Identifying the danger in the couple is difficult. If you suffer from depression, sadness, loss of appetite, physical pain as a result of the violence received, bruises, cuts and stabs, these are signs that indicate you are in a case of abuse.
+
+    \n\n• If you feel that these signs have increased recently, are more frequent, happen by suggesting that the relationship is ending, or are accompanied by threats, you are likely in serious danger and should ask for help.
+
+    \n\n• Write down all the changes you have undergone and reflect on those deals and their frequency, if it has gone to more or has been since the beginning.
+
+    \n\n• Trust your friends or family to comment on the situation you are going through. If you do not have anyone to whom you want to tell your situation, choose to write anonymously to associations as they will be able to advise you.
+
+    \n\n• In case of emergency, contact the police, civil guard or emergencies. You can contact your circle of trust or emergency services through Guardian. Remember that you are not alone.
+
+    \n\n• Coercion, threats and harassment and other harassment are typified by law and you can request legal assistance whenever you need it.
+
+    \n\n• Remember that in this situation you are not alone and that there is no justification or reason why you should receive abuse.]]></string>
+
+</resources>

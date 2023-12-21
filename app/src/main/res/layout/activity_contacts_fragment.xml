@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context=".ContactsFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.cardview.widget.CardView>
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/bg_btn"
+        android:dividerHeight="6dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:background="#f7f7f7" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:fadingEdge="horizontal"
+        android:fontFamily="monospace"
+        android:background="@drawable/bg_btn"
+        android:text="Add Emergency Contact "
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+
+

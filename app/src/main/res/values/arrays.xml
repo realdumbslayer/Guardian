@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>Dashboard</item>
+        <item>Contacts</item>
+        <item>Fake Call</item>
+        <item>Privacy Policy</item>
+        <item>Share</item>
+        <item />
+        <item>Exit</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_outline_home_24</item>
+        <item>@drawable/ic_outline_person_24</item>
+        <item>@drawable/ic_outline_call_24</item>
+        <item>@drawable/ic_outline_privacy_tip_24</item>
+        <item>@drawable/ic_outline_share_24</item>
+        <item>0</item>
+        <item>@drawable/ic_logout_grey600_24dp</item>
+    </array>
+
+</resources>
